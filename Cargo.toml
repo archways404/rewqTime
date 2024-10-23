@@ -1,0 +1,12 @@
+[package]
+name = "rewqTime"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4"
+
+actix-web = "4"
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+rand = "0.8"  # Add rand for random number generation
